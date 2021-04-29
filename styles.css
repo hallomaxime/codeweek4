@@ -8,15 +8,11 @@ body {
     background-color: #b3cdd1;
     background: linear-gradient(to bottom, #b3cdd1 22%, #8fa7ff 100%);
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .chatbox {
     height: 100%;
-    width: 50%;
+    width: 98%;
     min-width: 300px;
     display: flex;
     flex-direction: column;
@@ -31,7 +27,7 @@ body {
     height: auto;
     width: 90%;
     min-width: 280px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: rgb(245, 245, 245);
     border-radius: 20px;
 }
@@ -41,7 +37,7 @@ body {
     height: auto;
     width: 90%;
     min-width: 280px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: rgb(245, 245, 245);
     border-radius: 20px;
 }
@@ -67,7 +63,7 @@ body {
 .photo2 {
     display: flex;
     align-self: flex-start;
-    
+    margin-left: 10px
 }
 
 img {
@@ -76,38 +72,38 @@ img {
     border-radius: 50%;
     border: 3px solid #EEE;
     box-shadow: 3px 3px 3px #4d5557;
-    margin-bottom: 10px;
 }
 
 .triangle-left1 {
     width: 0;
     height: 0;
-    position: relative;
+    position: absolute;
     left: 90%;
-    top: 100%;
+    top: 39%;
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
-    border-color: rgb(245, 245, 245) transparent transparent transparent;
+    border-color: rgb(255, 0, 0) transparent transparent transparent;
 }
 
 .triangle-left2 {
     width: 0;
     height: 0;
-    position: relative;
+    position: absolute;
     left: 90%;
-    top: 100%;
+    top: 88%;
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
-    border-color: rgb(245, 245, 245) transparent transparent transparent;
+    border-color: rgb(255, 0, 0) transparent transparent transparent;
 }
 
 .triangle-right {
     width: 0;
     height: 0;
-    position: relative;
+    position: absolute;
     left: 10%;
-    top: 100%;
+    top: 63%;
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
-    border-color: rgb(245, 245, 245) transparent transparent transparent;
+    border-color: rgb(255, 0, 0) transparent transparent transparent;
 }
+
