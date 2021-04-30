@@ -4,23 +4,26 @@
 }
 
 body {
-    margin: auto;
+    margin: 3% 10%;
     background-color: #b3cdd1;
     background: linear-gradient(to bottom, #b3cdd1 22%, #8fa7ff 100%);
     font-family: 'Poppins', sans-serif;
 }
 
 .chatbox {
-    height: 100%;
-    width: 98%;
+    /*height: 100%;
+    width: 98%;*/
     min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
     margin: 0;
-    background-color: rgb(179, 205, 209);
-    background: linear-gradient(to bottom, #b3cdd1 22%, #8fa7ff 100%);
+   
+    position: relative;
+    
+    /*background-color: rgb(179, 205, 209);
+    background: linear-gradient(to bottom, #b3cdd1 22%, #8fa7ff 100%);*/
 }
 
 .bubble-in {
@@ -79,7 +82,10 @@ img {
     height: 0;
     position: absolute;
     left: 90%;
-    top: 39%;
+    /*position> bottom;*/
+    bottom: -8px;
+    /*position> bottom;*/
+    /*top: 88%;*/
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
     border-color: rgb(255, 0, 0) transparent transparent transparent;
@@ -90,7 +96,10 @@ img {
     height: 0;
     position: absolute;
     left: 90%;
-    top: 88%;
+    /*position> bottom;*/
+    bottom: -8px;
+    /*position> bottom;*/
+    /*top: 88%;*/
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
     border-color: rgb(255, 0, 0) transparent transparent transparent;
@@ -101,7 +110,10 @@ img {
     height: 0;
     position: absolute;
     left: 10%;
-    top: 63%;
+    /*position> bottom;*/
+    bottom: -8px;
+    /*position> bottom;*/
+    /*top: 63%;*/
     border-style: solid;
     border-width: 8.7px 5px 0 5px;
     border-color: rgb(255, 0, 0) transparent transparent transparent;
